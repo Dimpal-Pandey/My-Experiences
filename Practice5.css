@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.card-wrapper{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/2538504/pexels-photo-2538504.jpeg);
+    background-size: cover;
+    background-position: center;
+    /* background:  linear-gradient(to left bottom ,#350526, #220322); */
+}
+.card-wrapper h3{
+    height: 20%;
+    width: 100%; 
+    color: rgb(133, 0, 133);  
+    font-size: 22px;
+    font-weight: 550;
+    padding-top: 2.5rem;
+    padding-left: 7rem;
+}
+.cards{
+    height: 50%;
+    width: 100%;
+    /* background-color: skyblue;  */
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: .5rem;  
+}
+.card-1{
+    height: 180px;
+    width: 180px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0 ,0, 0, 0.18);  
+      border-radius: 5px;  
+    border: 2px solid rgba(0, 255, 200, 0.938);    
+    padding-left: 10px;
+}
+.card-1 button#top{
+    background-color: rgba(0, 255, 200, 0.938);
+    margin-top: 1px;
+    margin-left: 5.2rem;
+    font-size: 10px;
+    padding: 4px 4px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.card-1 h2{
+    font-size: 15px;
+    color: #fff;
+}
+.card-1 p{
+    font-size: 8px;
+    line-height: 12px;
+    color: #fff;
+}
+.card-1 button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    border-radius: 30px;
+    gap: 2.5rem;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-left: .2rem;
+    background-color: rgba(0, 255, 200, 0.863);
+    border: none;
+    transition: all ease .5s;
+}
+button:hover{
+   font-size: 9px;
+    background-color: rgb(172, 240, 225);
+    cursor: pointer;
+}
+.card-2{
+    height: 180px;
+    width: 180px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0 ,0, 0, 0.18);    border-radius: 5px;    
+    padding-left: 10px;
+}
+.card-2 h2{
+    margin-top: 1.5rem;
+    font-size: 15px;
+    color: #fff;
+}
+.card-2 p{
+    font-size: 8px;
+    line-height: 12px;
+    color: #fff;
+}
+.card-2 p span{
+    font-size: 8px;
+    font-weight: bold;
+   
+}
+.card-2 button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    border-radius: 30px;
+    gap: 2.5rem;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-left: .2rem;
+    border: 2px solid rgb(254, 255, 255);
+    color: #fff;
+    background: transparent;    
+    transition: all ease .5s;
+}
+button:hover{
+   font-size: 9px;
+    background-color: rgb(172, 240, 225);
+    cursor: pointer;
+}
+
+.card-3{
+    height: 180px;
+    width: 180px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0 ,0, 0, 0.18);    border-radius: 5px;    
+    padding-left: 10px;
+}
+.card-3 button#top{
+    background-color: rgba(183, 0, 255, 0.938);
+    margin-top: 1px;
+    margin-left: 5.2rem;
+    font-size: 10px;
+    padding: 4px 4px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.card-3 h2{
+    font-size: 15px;
+    color: #fff;
+}
+.card-3 p{
+    font-size: 8px;
+    line-height: 12px;
+    color: #fff;
+}
+.card-3 p span{
+    font-size: 8px;
+    font-weight: bold;
+   
+}
+.card-3 button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    border-radius: 30px;
+    gap: 2.5rem;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 1.9rem;
+    margin-left: .2rem;
+    border: 2px solid rgb(254, 255, 255);
+    background: transparent;  
+    color: #fff;  
+    transition: all ease .5s;
+}
+button:hover{
+   font-size: 9px;
+    background-color: rgb(172, 240, 225);
+    cursor: pointer;
+}
+
+.bottom{
+    height: 20%;
+    width: 100%;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    margin-top: .5rem;
+    color: #fff;
+}
+#card-A{
+    height: 80px;
+    width: 180px;   
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0 ,0, 0, 0.18);  
+      border-radius: 5px;  
+      padding-left: 10px;
+      padding-top: 10px;
+
+}
+#card-A h4{
+    font-size: 12px;
+    font-weight: 550;
+}
+#card-A p{
+    font-size: 8px;
+    font-weight: 500;
+}
+#card-A span{
+    font-size: 10px;
+    font-weight: 900;
+}
+#card-A i{
+    padding: 2px 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    font-size: 8px;
+    font-weight: 900;
+}
+#card-B{
+    height: 80px;
+    width: 180px;    
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0 ,0, 0, 0.18);  
+      border-radius: 5px;  
+      padding-left: 10px;
+      padding-top: 10px;
+
+}
+#card-B h4{
+    font-size: 12px;
+    font-weight: 550;
+}
+#card-B p{
+    font-size: 8px;
+    font-weight: 500;
+}
+#card-B span{
+    font-size: 10px;
+    font-weight: 900;
+}
+#card-B i{
+    padding: 2px 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    font-size: 8px;
+    font-weight: 900;
+}
+#card-C{
+    height: 80px;
+    width: 180px;   
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0 ,0, 0, 0.18);  
+      border-radius: 5px;  
+      padding-left: 10px;
+      padding-top: 10px;
+
+}
+#card-A h4{
+    font-size: 12px;
+    font-weight: 550;
+}
+#card-C p{
+    font-size: 8px;
+    font-weight: 500;
+}
+#card-C span{
+    font-size: 10px;
+    font-weight: 900;
+}
+#card-C i{
+    padding: 2px 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    font-size: 8px;
+    font-weight: 900;
+}
