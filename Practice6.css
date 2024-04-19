@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    perspective: 800px;
+}
+#cursor{
+    height: 15px;
+    width: 15px;
+    background-color: #95C11E;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+}
+#cursor-blur{
+    height: 150px;
+    width: 150px;
+    background-color: #96c11e7a;
+    border-radius: 50%;
+    position: fixed;
+   filter: blur(30px);
+   z-index: 9;
+}
+#nav{
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    padding: 0 120px;
+    gap: 20px;
+    justify-content: flex-start;
+    z-index: 99;
+}
+#nav h4{
+    text-transform: uppercase;
+    font-size: 10px;
+}
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+}
+#main{
+    position: relative;
+    background-color: rgba(0, 0,0, 0.37);
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: 10;
+}
+#page1 h1{
+    font-size: 70px;
+    font-weight: 900;
+    position: relative;
+}
+#page1 h1::before{
+    content:"EAT. DRINK. PLAY";
+    position: absolute;
+    color: #000;
+    top: -3px;
+    left: -3px;
+    -webkit-text-stroke: 1px #95C11E;  
+    z-index: -1;  
+}
+#page1 h2{
+    font-size: 19px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#page1 p{
+    font-size: 10px;
+    font-weight: 500;
+    width: 37%;
+}
+#page2{
+    min-height: 100vh;
+    width: 100%;
+    z-index: 10;
+}
+
+#scroller{
+    /* background-color: red; */
+    white-space: nowrap;
+    text-transform: uppercase;
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: relative;
+    z-index: 10;
+}
+#scroller::-webkit-scrollbar{
+    display: none;
+}
+#scroller-in{
+    display: inline-block;
+    white-space: nowrap;
+    animation-name: scroll;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#scroller h4{
+    display: inline-block;
+    font-size: 80px;
+    font-weight: 900;
+    margin-right: 10px;
+    color: transparent;
+    -webkit-text-stroke: 2px #95C11E;
+    transition: all linear .5s;
+}
+#scroller h4:hover{
+    color: #95C11E;
+}
+
+
+@keyframes scroll{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+#about-us{
+    height: 40vh;
+    width: 100%;
+   position: relative;
+    display: flex;
+    padding: 0 40px;
+    align-items: center;
+    justify-content: space-around;    
+    z-index: 10;
+}
+#about-us img{
+    height:150px;
+    width: 150px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+#about-us-in{
+    width: 50%;
+    text-align: center;
+}
+#about-us-in h3{
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+#about-us-in p{
+    font-size: 12px;
+    font-weight: 500;
+   line-height: 17px;
+}
+
+#cards-container{
+    position: relative;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    z-index: 10;
+}
+.card{
+    height: 75%;
+    width: 22%;    
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    transition: all ease 0.6s;
+}
+#card-1{
+    background-image: url(https://images.pexels.com/photos/7360/startup-photos.jpg);
+}
+#card-2{
+    background-image: url(https://images.pexels.com/photos/247376/pexels-photo-247376.jpeg);
+}
+#card-3{
+    background-image: url(https://images.pexels.com/photos/7858232/pexels-photo-7858232.jpeg);
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #95C11E;
+    text-align: center;
+    padding-top: 20px;
+    padding: 20px;
+    opacity: 0;
+    transition: all ease 0.6s;
+}
+.overlay h4{
+    color: #000;
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.overlay p{
+    color: #000;
+    font-size: 9px;
+    font-weight: 500;
+}
+.card:hover .overlay{
+    opacity: 1;
+}
+.card:hover{
+    transform: rotate3d(1,1,0,20deg);
+}
+
+#green-div{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:  linear-gradient(to left bottom ,#1fbe1f, #95C11E);
+}
+#green-div h4{
+    width: 45%;
+    font-size: 20px;
+    color: #000;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+}
+#green-div img{
+    height: 100%;
+    object-fit: cover;
+    width: 18%;
+}
+
+#page-3{
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#page-3>p{
+    font-size: 16px;
+    font-weight: 800;
+    width: 50%;
+    line-height: 18px;
+    text-align: center;
+}
+/* #page-3 img{
+    position: absolute;
+    height: 60px;
+}
+#page3 #colon1{
+    left: 15%;
+    top: 25%;
+}
+#page3 #colon2{
+   bottom: 25%;
+   right: 15%;
+} */
