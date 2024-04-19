@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" 
+);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Geologica";
+}
+html, body{
+    height: 100%;
+    width: 100;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+.nav{
+    height: 10%;
+    width: 100%;
+    padding: 5px 20px;
+    /* background-color: deeppink; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    font-size: 10px;
+    color: #fff;
+    padding: 0px 5px;
+}
+.nav h3{   
+    font-family: cursive;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+.btn button{
+   color: #fff;
+   padding: 4px 8px;
+   border-radius: 30px;
+   border: none;
+   background-color: #000;
+}
+.btn button:hover{
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    transform: translateX(1px);
+    transition: all ease .4s;
+}
+.text{
+    height: 45%;
+    width: 100%;
+    /* background-color: blue; */
+    flex-direction: column;
+    text-align: center;
+    padding-top: 10px;
+    line-height: 30px;
+}
+.text h3{
+    font-size: 30px;
+    font-weight: 200;
+}
+.text h3 bold{
+    font-weight: 500;
+}
+.text p{
+    font-size: 10px;
+    line-height: 15px;
+}
+.text button{
+    background-color: rgb(20, 240, 57);
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 5px;
+}
+.text button:hover{
+    background-color: #fff;
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: all ease 0.5s;
+}
+.images{
+    position: relative;
+    height: 45%;
+    width: 100%;
+    background-color: #14b938;
+    padding: 10px 30px;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.images #img1{
+position: relative;
+height: 160px;
+width: 220px;
+background-image: url(https://images.pexels.com/photos/957024/forest-trees-perspective-bright-957024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+background-size: cover;
+background-position: center;
+border-radius: 10px;
+display: flex;
+align-items: last baseline;
+justify-content: space-between;  
+}
+.images #img1 p{
+    font-size: 9px;
+    padding-left: 10px;
+}
+#img1 i{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding:5px 5px;
+    border: 1px solid#fff;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #000;
+}
+.images #img2{
+position: relative;
+height: 160px;
+width: 220px;
+background-image: url(https://images.pexels.com/photos/1452701/pexels-photo-1452701.jpeg);
+background-size: cover;
+background-position: center;
+background-color:red;
+border-radius: 10px;
+display: flex;
+align-items: last baseline;
+justify-content: space-between;  
+}
+.images #img2 p{
+    font-size: 9px;
+    padding-left: 10px;
+}
+#img2 i{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding:5px 5px;
+    border: 1px solid#fff;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #000;
+}
+.images #img3{
+position: relative;
+height: 160px;
+width: 220px;
+background-image: url(https://images.pexels.com/photos/144234/bull-landscape-nature-mammal-144234.jpeg);
+background-size: cover;
+background-position: center;
+background-color:red;
+border-radius: 10px;
+display: flex;
+align-items: last baseline;
+justify-content: space-between;  
+}
+.images #img3 p{
+    font-size: 9px;
+    padding-left: 10px;
+}
+#img3 i{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding:5px 5px;
+    border: 1px solid#fff;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #000;
+}
