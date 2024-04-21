@@ -15,24 +15,24 @@ html, body{
     width: 100%;
     position: absolute;
     background-color: rgb(0, 0, 0);
-    padding: 0rem 1.5rem;
+    padding: 0rem 3rem;
 }
 .navigation{
-    position: relative;
+    position: fixed;
     height: 40px;
     width: 100%;
     /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 1.5rem;
+    padding: 2rem 4rem;
     color: #fff;
     border-bottom: 1px solid #777;    
     z-index: 100; 
 
 }
 header{
-    font-size: .8rem;
+    font-size: 2rem;
 }
 header span{    
     color: #C0C0C0;     
@@ -40,13 +40,13 @@ header span{
 #nav a{
     color: #fff;
     text-decoration: none;
-    font-size: .6rem;
-    padding-left: .7rem;
+    font-size: 1rem;
+    padding-left: 1.8rem;
     transition: all ease .5s;
 }
 #nav a:hover{
     color: #C0C0C0;
-    font-size: .58rem;    
+    font-size: .9rem;    
 }
 
 #loader{
@@ -65,8 +65,8 @@ header span{
 }
 
 #cursor{
-    height: 15px;
-    width: 15px;
+    height: 30px;
+    width: 30px;
     background-color: #C0C0C0;
     border-radius: 50%;
     position: fixed;
@@ -74,12 +74,12 @@ header span{
     z-index: 90;
 }
 #cursor-blur{
-    height: 100px;
-    width: 100px;
-    background-color: #ffffff4f;
+    height: 200px;
+    width: 200px;
+    background-color: #fff;
     border-radius: 50%;
     position: fixed;
-   filter: blur(30px);
+   filter: blur(60px);
    z-index: 9;
 }
 
@@ -87,33 +87,33 @@ header span{
     min-height: 80vh;
     position: relative;
     width: 100%;    
-    padding: 5rem 5rem;
+    padding: 10rem 8rem;
     z-index: 10;
 }
 #context{    
-    line-height: 2.1rem;
+    line-height: 5rem;
     color: #fff;
     width: 100%;
 }
 .page1 h1{
-    word-spacing: -.2rem; 
-    font-size: 2.3rem;
+    word-spacing: -.6rem; 
+    font-size: 5rem;
     font-weight: 700;        
 }
 .page1 h1 span{
     color: #888; 
 }
 .page1 p.tpara{
-    font-size: .65rem;
+    font-size: 1.5rem;
     font-weight: 500;     
 }
 .page1 p span{
     color: #999; 
 }
 .page1 p.bpara{     
-    font-size: .6rem;
+    font-size: 1.3rem;
     font-weight: 500;      
-    padding-left: 8rem;      
+    padding-left: 18rem;      
 }
 
 .page2{
@@ -144,8 +144,8 @@ header span{
 }
 
 .project1{
-    height: 130px;
-    width: 130px;
+    height: 250px;
+    width: 250px;
     /* position: relative;     */
     /* background-color: rgb(255, 255, 255); */
    background: linear-gradient(to bottom, rgba(102, 100, 100, 0.637), rgb(250, 250, 250));
@@ -158,17 +158,17 @@ header span{
 .project1 a{
     text-decoration: none;
     color: #000;
-    font-size: .7rem;
+    font-size: 1rem;
     font-weight: 500;
     transition: all ease .4s;
 }
 .project1 a:hover{
-    font-size: .6rem;
+    font-size: .9rem;
     color: #333;
 }
 .project2{
-    height: 130px;
-    width: 130px;
+     height: 250px;
+    width: 250px;
     position: relative;    
     /* background-color: rgb(255, 255, 255); */
    background: linear-gradient(to bottom, rgba(102, 100, 100, 0.637), rgb(250, 250, 250));
@@ -182,17 +182,17 @@ header span{
 .project2 a{
     text-decoration: none;
     color: #000;
-    font-size: .7rem;
+    font-size: 1rem;
     font-weight: 500;
     transition: all ease .4s;
 }
 .project2 a:hover{
-    font-size: .6rem;
+    font-size: .9rem;
     color: #333;
 }
 .project3{
-    height: 130px;
-    width: 130px;
+     height: 250px;
+    width: 250px;
     position: relative;    
     /* background-color: rgb(255, 255, 255); */
    background: linear-gradient(to bottom, rgba(102, 100, 100, 0.637), rgb(250, 250, 250));
@@ -206,17 +206,17 @@ header span{
 .project3 a{
     text-decoration: none;
     color: #000;
-    font-size: .7rem;
+    font-size: 1rem;
     font-weight: 500;
     transition: all ease .4s;
 }
 .project3 a:hover{
-    font-size: .6rem;
+    font-size: .9rem;
     color: #333;
 }
 .project4{
-    height: 130px;
-    width: 130px;
+     height: 250px;
+    width: 250px;
     position: relative;    
     /* background-color: rgb(255, 255, 255); */
    background: linear-gradient(to bottom, rgba(102, 100, 100, 0.637), rgb(250, 250, 250));
@@ -230,17 +230,17 @@ header span{
 .project4 a{
     text-decoration: none;
     color: #000;
-    font-size: .7rem;
+    font-size: 1rem;
     font-weight: 500;
     transition: all ease .4s;
 }
 .project4 a:hover{
-    font-size: .6rem;
+    font-size: .9rem;
     color: #333;
 }
 .project5{
-    height: 130px;
-    width: 130px;
+     height: 250px;
+    width: 250px;
     position: relative;    
     /* background-color: rgb(255, 255, 255); */
    background: linear-gradient(to bottom, rgba(102, 100, 100, 0.637), rgb(250, 250, 250));
@@ -253,17 +253,17 @@ header span{
 .project5 a{
     text-decoration: none;
     color: #000;
-    font-size: .7rem;
+    font-size: 1rem;
     font-weight: 500;
     transition: all ease .4s;
 }
 .project5 a:hover{
-    font-size: .6rem;
+    font-size: .9rem;
     color: #333;
 }
 .project6{
-    height: 130px;
-    width: 130px;
+     height: 250px;
+    width: 250px;
     position: relative;    
     /* background-color: rgb(255, 255, 255); */
     background: linear-gradient(to bottom, rgba(102, 100, 100, 0.637), rgb(250, 250, 250));
@@ -276,12 +276,12 @@ header span{
 .project6 a{
     text-decoration: none;
     color: #000;
-    font-size: .7rem;
+    font-size: 1rem;
     font-weight: 500;
     transition: all ease .4s;
 }
 .project6 a:hover{
-    font-size: .6rem;
+    font-size: .9rem;
     color: #333;
 }
 
@@ -290,9 +290,9 @@ footer{
     width: 100%;
     position: relative;
     color: #fff;
-    font-size: .5rem;
+    font-size: 1rem;
     font-weight: 300;
-    padding: .7rem ;
+    padding: 1rem ;
 }
 footer a{
     color: #999;

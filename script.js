@@ -80,8 +80,8 @@ var nav = document.querySelector(".navigation")
 document.addEventListener("mousemove", function(dets){
     crsr.style.left = dets.x +"px"
     crsr.style.top = dets.y+"px"   
-    blur.style.left = dets.x - 50+"px"
-    blur.style.top = dets.y - 50+"px"   
+    blur.style.left = dets.x - 100+"px"
+    blur.style.top = dets.y - 100+"px"   
 })
 nav.addEventListener("mouseenter", function(){
     crsr.style.display = "none";
@@ -134,17 +134,17 @@ tl.from(".page1 h1",{
    
 })
 tl.from(".page1 p.tpara",{
-    x:-100,
+    x:-200,
     opacity:0,
-    stagger:.5,
-    delay:.3,
-    duration:.5,      
+    stagger:1,
+    delay:1,
+    duration:1,      
 })
 tl.from(".page1 p.bpara",{
     x:100,
     opacity:0,
-    stagger:.5,
-    delay:.1,
+    stagger:.1,
+    delay:1,
     duration:.5,    
 })
 tl.from(".page2-A",{
@@ -158,7 +158,7 @@ tl.from(".page2-A",{
         trigger:".page2-A",
         scroller:".main",
         markers:false,
-        start:"top 40%",
+        start:"top 50%",
         end:"top 60%",
         scrub:2,
     }
@@ -174,7 +174,7 @@ tl.from(".page2-B",{
         trigger:".page2-B",
         scroller:".main",
         markers:false,
-        start:"top 40%",
+        start:"top 50%",
         end:"top 60%",
         scrub:2,
     }
