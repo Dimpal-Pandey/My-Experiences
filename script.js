@@ -80,8 +80,8 @@ var nav = document.querySelector(".navigation")
 document.addEventListener("mousemove", function(dets){
     crsr.style.left = dets.x +"px"
     crsr.style.top = dets.y+"px"   
-    blur.style.left = dets.x - 100+"px"
-    blur.style.top = dets.y - 100+"px"   
+    blur.style.left = dets.x - 75+"px"
+    blur.style.top = dets.y - 75+"px"   
 })
 nav.addEventListener("mouseenter", function(){
     crsr.style.display = "none";
@@ -137,8 +137,8 @@ tl.from(".page1 p.tpara",{
     x:-200,
     opacity:0,
     stagger:1,
-    delay:1,
-    duration:1,      
+    delay:.5,
+    duration:.5,      
 })
 tl.from(".page1 p.bpara",{
     x:100,
@@ -151,7 +151,7 @@ tl.from(".page2-A",{
     x:100,
     opacity:0,
     stagger:.5,
-    delay:1,
+    delay:.5,
     duration:.5,
     // rotate:180,
     scrollTrigger:{

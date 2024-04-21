@@ -74,12 +74,12 @@ header span{
     z-index: 90;
 }
 #cursor-blur{
-    height: 200px;
-    width: 200px;
-    background-color: #fff;
+    height: 150px;
+    width: 150px;
+    background-color: #ffffff8a;
     border-radius: 50%;
     position: fixed;
-   filter: blur(60px);
+   filter: blur(30px);
    z-index: 9;
 }
 
