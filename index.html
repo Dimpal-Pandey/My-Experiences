@@ -3,15 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main-Page</title>
+    <title>Main-Page</title>    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="Practice1.html">Practice1</a>
-    <a href="Practice2.html">Practice2</a>
-    <a href="Practice3.html">Practice3</a>
-    <a href="Practice4.html">Practice4</a>
-    <a href="Practice5.html">Practice5</a>
-    <a href="Practice6.html">Practice6</a>
-    
+    <div id="loader">
+        <h1>0%</h1>
+    </div>
+   <div class="main">
+   <div class="navigation">
+    <header><span>E</span>lysian</header>
+    <div id="nav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Experience</a>
+        <a href="#">Contact</a>
+    </div>
+   </div>   
+   <div id="cursor"></div>
+    <div id="cursor-blur"></div>
+   <div class="page1">
+    <div id="context">
+        <p class="tpara">Hey🙏🏻 , I'm <span>D</span>impal,</p> <h1>weaving <span>d</span>igital <span>d</span>reams<br>as a web <span>d</span>esigner <br>and <span>d</span>eveloper</h1><p class="bpara"> from the heart of Hazaribagh🤞,Jharkhand</p>
+    </div>
+   </div>
+   
+    <div class="page2">
+       <div class="page2-A">
+        <div class="project1"><a href="Practice1.html">Practice1</a></div>
+        <div class="project2"><a href="Practice2.html">Practice2</a></div>
+        <div class="project3"><a href="Practice3.html">Practice3</a></div>  
+       </div>  
+       <div class="page2-B">
+        <div class="project4"><a href="Practice4.html">Practice4</a></div>
+        <div class="project5"><a href="Practice5.html">Practice5</a></div>
+        <div class="project6"><a href="Practice6.html">Practice6</a> </div>  
+       </div>         
+       <hr>  
+       <footer>
+        &copy; <span id="currentYear"></span> #Miss problem. All Rights Reserved.
+        <a href="/copyright-policy">Copyright Policy</a>
+    </footer>
+    </div> 
+   
+   </div>
+
+   <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="script.js"></script>
 </body>
 </html>
